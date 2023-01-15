@@ -179,15 +179,27 @@ nav ul li a {
 }
 
 .skill-part {
+    width: 90%;
     display: flex;
     gap: 40px;
     justify-content: space-between;
 }
+.skill-text{
 
-.skill-image img {
+    width: 50%;
+}
+
+.skill-text  {
+    width: 100%;
     width: 25em;
     position: relative;
 
+}
+.skilled-women{
+    width: 100%;
+}
+.skilled-women img{
+    width: 100%;
 }
 
 .experience-01 {
@@ -219,7 +231,8 @@ nav ul li a {
 }
 
 .women-btn a {
-    width: 160px;
+    width: 15em;
+    height: 10em;
     background: #FF900E;
     border-radius: 8px;
     color: #fff;
@@ -480,6 +493,7 @@ nav ul li a {
 
     .skill-part {
         flex-direction: column;
+        align-items: center;
     }
 
     .icon-inner {
