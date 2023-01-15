@@ -179,28 +179,27 @@ nav ul li a {
 }
 
 .skill-part {
-    width: 90%;
+    width: 50%;
     display: flex;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+
 }
 .skill-text{
-
     width: 50%;
 }
 
 .skill-text  {
-    width: 100%;
-    width: 25em;
+    width: 50%;
     position: relative;
 
 }
-.skilled-women{
-    width: 100%;
-}
 .skilled-women img{
     width: 100%;
+    margin-top: 40px;
+ 
 }
+
 
 .experience-01 {
     font-size: 30px;
